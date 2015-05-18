@@ -1,0 +1,41 @@
+#Copyright (C) 2011 Christopher Pybus <hotshot2162@yahoo.com>
+
+PayGroups:
+    Regular:
+        Type: Flat_Rate
+        Amount: 100
+        Members:
+        - Name1
+        - Name2
+    SomeRandomGroup:
+        Type: Percent
+        Amount: 50
+        Members:
+        - Name3
+        - Name4
+    Moderator:
+        Type: Flat_Rate
+        Amount: 400
+        Members:
+        - Name5
+        - Name6
+    Admins:
+        Type: Flat_Rate
+        Amount: 100
+        Members:
+        - Name7
+        - Name8
+TaxGroups:
+    ApartmentRent:
+        Type: Percent
+        Amount: 10
+        Members:
+        - Name9
+        - Name10
+    RealstateRent:
+        Type: Flat_Rate
+        Amount: 100
+        Members:
+        - Name11
+        - Name12
+    

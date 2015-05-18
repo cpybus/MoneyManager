@@ -1,0 +1,12 @@
+name: MoneyManager
+main: me.chris.MoneyManager.MoneyManagerMain
+version: 2.2
+description: A plugin that pays and taxes people with just one command.
+depend: [Vault]
+commands:
+    mm:
+        description: This command is the base command for the entire plugin.
+        usage: /<command>
+    moneymanager:
+        description: This is the same thing as using pt, except longer... So pretty useless.
+        usage: /<command>
